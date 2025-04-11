@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: rgb(122, 31, 31)
+    background-color: rgb(0, 0, 0)
 }
 
 img {
@@ -21,7 +21,7 @@ img {
 
 a {
     display: block;
-    background-color: rgb(122, 31, 31);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 15px;
     text-align: center;
@@ -30,5 +30,7 @@ a {
 }
 
 a:hover {
-    background-color: darkred;
+    background-color: rgb(67, 113, 199);
+    font-size: 1.2em;
+    transition: background-color .2s, font-size .2s;
 }
